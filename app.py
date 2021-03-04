@@ -29,7 +29,7 @@ def webhook():
     
     if data['passphrase'] != config.WEBHOOK_PASSPHRASE:
         return {
-            "code": "error",oer
+            "code": "error",
             "message": "Nice try, invalid passphrase"
         }
 
